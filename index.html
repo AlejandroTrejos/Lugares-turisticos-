@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turisticos</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./ICONOS/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,200;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./IMG/ClipartKey_1344244.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./CSS/laptop.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="./CSS/laptop2.css" media="(min-width: 1920px)">
+    <style>
+        header{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-logo">
+                <h3><span ><i class="fas fa-air-freshener"></i></span>Lugares Turisticos</h3>
+            </div>
+            <div class="menu-links">
+                <div class="links">
+                    <a href="#" id="menu-links--homeBtn">Home</a>
+                    <a href="#lugares-header">Places</a>          
+                </div>
+            </div>
+        </nav>
+        <div class="animate__animated animate__fadeInUp main-header">
+            <h1 class="main-header--cta">Conoce lugares turísticos de Panamá</h1>
+            <a href="#lugares-header" class= 'main-header--btn'>Saber más</a>
+        </div>
+    </header>
+    <main>
+        <section class="lugares" id="lugares-header">
+            <div class="lugares-header">
+                <h3>Provincias</h3>
+            </div>
+            <div class="lugares-img-container" ">
+               <div class="lugares-img" id="panama">
+                   <img src="./IMG/PROVINCIAS/Panama.jpg" alt="">
+                   <div class="overlay">
+                       <h2>Panamá</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="chiriqui">
+                   <img src="./IMG/PROVINCIAS/chiri.jpg" alt=""> 
+                   <div class="overlay">
+                       <h2>Chiriquí</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="bocas">
+                   <img src="./IMG/PROVINCIAS/shutterstock_175131416.jpg" alt=""> 
+                   <div class="overlay">
+                       <h2>Bocas Del Toro</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="ngobe">
+                   <img src="./IMG/PROVINCIAS/ngobe.jpg" alt=""> <div class="overlay">
+                       <h2>Ngäbe-Buglé</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="ls">
+                   <img src="./IMG/PROVINCIAS/los santos.jfif" alt=""> 
+                   <div class="overlay">
+                       <h2>Los Santos</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="veraguas">
+                   <img src="./IMG/PROVINCIAS/escudo-de-veraguas.jpg" alt=""> 
+                   <div class="overlay">
+                       <h2>Veraguas</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="colon">
+                   <img src="./IMG/colon.jpg" alt=""> 
+                   <div class="overlay">
+                        <h2>Colón</h2>
+                   </div>
+               </div>
+               <div class="lugares-img" id="west">
+                   <img src="./IMG/PROVINCIAS/west.jpg" alt=""> 
+                   <div class="overlay">
+                       <h2>Panamá Oeste</h2>
+                   </div>
+               </div>
+              
+            </div>
+        </section>
+        <footer>
+            <div class="footer-copy">
+                <div class="footer-logo">
+                    <div class="copy">
+                        <h3><span ><i class="fas fa-air-freshener"></i></span>Lugares Turisticos</h3>
+                        <p id="copy">Copyright &copy;2020</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </main>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script type="text/javascript" src="./JS/main.js"></script>
+<script>
+    window.sr = ScrollReveal()
+
+    sr.reveal(".lugares-header",{
+        duration: 3000
+    })
+    sr.reveal('.lugares-img-container',{
+        duration: 5000
+    })
+
+    
+
+</script>
+</html>

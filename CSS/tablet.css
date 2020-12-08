@@ -1,0 +1,86 @@
+header .menu-logo{
+    font-size: 3rem;
+}
+header .menu-links a{
+    font-size: 2rem;
+}
+
+.lugares-img-container{
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.lugares-img-container .lugares-img{
+    width: 350px;
+    margin-bottom: 0;
+}
+.lugares-img-container .lugares-img img{
+    width: 350px;
+    height: 300px;
+}
+
+.lugares-img .overlay h2{
+    font-size: 4rem;
+}
+footer .footer-socials a{
+    font-size: 2.5rem;
+}
+
+
+footer  .copy{
+    font-size: 2.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer .footer-copy span{
+    font-size: 2.5rem;
+   
+}
+
+/* PROVINCIA */
+.provincias .provincia-container{
+    width: 90%;
+}
+
+.provincia{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.provincia img{
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.provincia h3{
+    font-size: 5rem;
+}
+.provincia p{
+    font-size: 2rem;
+}
+
+/* PROVINCIA-INFO */
+.provincias .provincia-container{
+    overflow-y: scroll;
+}
+.additional-img--container{
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+.additional-img--container .img{
+    width: auto;
+    justify-self: space-between;
+    padding: 10px 0;
+}
+.additional-img--container .img img{
+    max-width: 450px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}

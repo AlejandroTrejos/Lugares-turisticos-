@@ -1,0 +1,43 @@
+header .main-header .main-header--cta{
+    font-size: 4rem;
+}
+
+.main-header--btn{
+    font-size: 3rem;
+}
+
+main .lugares-header h3{
+    font-size: 5rem;
+}
+.lugares-img-container{
+    width: 100%;
+    flex-flow: row wrap;
+    min-width: 320px;
+    justify-content: center;
+}
+.lugares-img .overlay{
+    width: 0;
+}
+.lugares-img:hover .overlay{
+    width: 100%;
+    cursor: pointer;
+}
+footer .footer-socials a{
+    font-size: 2.5rem;
+}
+
+
+footer  .copy{
+    font-size: 2.5rem;
+}
+
+footer .footer-copy span{
+    font-size: 2.5rem;
+   
+}
+
+/* PROVINCIAS */
+.provincias .provincia-container{
+    overflow-y: hidden;
+    height: 80vh;
+}
